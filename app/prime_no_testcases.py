@@ -12,8 +12,8 @@ class TestPrimeNumberGenerator(unittest.TestCase):
 
         #Tests correct error message for wrong string input
     def test_prime_generator_string_input(self):
-        self.assertEqual(prime_generator('a'),'Input must be an integer, String given')
+        self.assertEqual(prime_generator('y'),'Input must be an integer, String given')
 
     #Tests correct error message for wrong float input
     def test_prime_generator_float_input(self):
-        self.assertEqual(prime_generator(11.9),'Input must be an integer, Float given')
+        self.assertEqual(prime_generator(122.3333),'Input must be an integer, Float given')
