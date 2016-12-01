@@ -1,9 +1,5 @@
-class pet:
-		number_of_legs = 0
-
-		def sleep(self):
-			print "zzz"
+class carClass:
+		
 			
 
-doug = pet()
-doug.sleep()
+honda = carClass()
